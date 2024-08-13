@@ -2,7 +2,7 @@ import './App.css';
 
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-import Home from './pages/home/Home';
+import MainRoutes from './Routes/MainRoutes';
 
 function App() {
 
@@ -15,7 +15,7 @@ function App() {
         expand="md"
         container="md" />
 
-      <Home />
+      <MainRoutes />
 
       {/* Common Footer for all Pages */}
       <Footer />
