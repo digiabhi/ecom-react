@@ -1,12 +1,14 @@
-import './App.css'
+import './App.css';
+
+import Header from './components/Header/Header';
 
 function App() {
 
   return (
-    <h1>
-      Shop Cart
-    </h1>
-  )
+    <>
+      <Header color="light" light={true} expand="md" container="md" fixed="top" />
+    </>
+  );
 }
 
-export default App
+export default App;
